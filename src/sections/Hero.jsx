@@ -1,7 +1,6 @@
-import React from "react";
 import { words } from "../constants/index.tsx";
-import Button from "../components/button.tsx";
-
+import Button from "../components/Button.tsx";
+import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 
 const Hero = () => {
   return (
@@ -11,6 +10,7 @@ const Hero = () => {
       </div>
       <div className="hero-layout">
         <header className="flex flex-col justify-center md:w-full w-screen md:px-20 px-5">
+         
           <div className="flex flex-col gap-7">
             <div className="hero-text">
               <h1>
@@ -43,12 +43,18 @@ const Hero = () => {
               understanding of design principles and a keen eye for detail.
             </p>
             <Button
-                className="md-80 md:h-16 w-60 h-14"
-                id="button"
-                text="See My Work"
-             />
+              className="md-80 md:h-16 w-60 h-14"
+              id="button"
+              text="See My Work"
+            />
           </div>
         </header>
+         <figure>
+            <div className="hero-3d-layout">
+              <HeroExperience/>
+
+            </div>
+          </figure>
       </div>
     </section>
   );
