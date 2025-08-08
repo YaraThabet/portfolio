@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
+import TechStack from "./sections/TechStack";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <NavBar/>
       <Hero />
       <ShowcaseSection/>
+      <TechStack />
     </div>
   );
 }
