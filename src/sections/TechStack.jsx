@@ -19,14 +19,14 @@ const TechStack = () => {
       },
       {
   
-        y: 0, // Move the cards back to the top
-        opacity: 1, // Set the opacity to 1
-        duration: 1, // Duration of the animation
-        ease: "power2.inOut", // Ease of the animation
-        stagger: 0.2, // Stagger the animation by 0.2 seconds
+        y: 0, 
+        opacity: 1, 
+        duration: 1,
+        ease: "power2.inOut", 
+        stagger: 0.2,
         scrollTrigger: {
-          trigger: "#skills", // Trigger the animation when the user scrolls to the #skills wrapper
-          start: "top center", // Start the animation when the top of the wrapper is at the center of the screen
+          trigger: "#skills", 
+          start: "top center",
         },
       }
     );
