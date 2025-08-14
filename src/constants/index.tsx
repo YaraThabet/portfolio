@@ -247,18 +247,12 @@ const testimonials = [
 const socialImgs = [
   {
     name: "insta",
+    url:"https://www.instagram.com/yaraalith/",
     imgPath: "/images/insta.png",
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
-  },
-  {
     name: "linkedin",
+    url:"https://www.linkedin.com/in/yara-thabet-673a24222/",
     imgPath: "/images/linkedin.png",
   },
 ];
